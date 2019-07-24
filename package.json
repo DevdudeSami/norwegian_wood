@@ -1,0 +1,19 @@
+{
+  "name": "norwegian_wood",
+  "version": "1.0.0",
+  "description": "A quickly whipped up dashboard for the browser to act as a homepage.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevdudeSami/norwegian_wood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevdudeSami/norwegian_wood/issues"
+  },
+  "homepage": "https://github.com/DevdudeSami/norwegian_wood#readme"
+}

@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>Download bookmarks</title>
+
+		<script>
+			function loaded() {
+				document.write(window.localStorage.getItem("bookmarks"))
+			}
+		</script>
+	</head>
+	<body onload="loaded()">
+		
+	</body>
+</html>
