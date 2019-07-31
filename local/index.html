@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script src="scripts/jq.js"></script>
+    <script src="scripts/autocomplete.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/bookmarks.js"></script>
+    <script src="scripts/clock.js"></script>
+    <script src="scripts/weather.js"></script>
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+
+    <title>Dashboard</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <span id="clock"></span> - <span id="weather"></span>
+
+      <div id="searchBox">
+        <input type="text" id="search" class="bigTextBox" placeholder="" autocorrect="off" autocapitalize="off" spellcheck="false" autofocus />
+      </div>
+
+      <div id="links"></div>
+      <div id="newBookmark">
+        <input type="text" id="bookmarkTitle" class="smallTextBox" placeholder="title" autocorrect="off" autocapitalize="off" spellcheck="false" />
+        <input type="text" id="bookmarkLink" class="smallTextBox" placeholder="url" autocorrect="off" autocapitalize="off" spellcheck="false" />
+        <input type="text" id="bookmarkSection" class="smallTextBox" placeholder="section" autocorrect="off" autocapitalize="off" spellcheck="false" />
+      </div>
+      
+      <h4 id="random"></h4>
+    </div>
+  </body>
+</html>

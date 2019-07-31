@@ -3,7 +3,7 @@ $(function() {
 })
 
 function displayTemperature(temp) {
-  $("#weather").html(`&nbsp; <span id="temperature">${Math.round((temp-273.15)*10)/10} &deg;C</span>`);
+  $("#weather").html(`<span id="temperature">${Math.round((temp-273.15)*10)/10} &deg;C</span>`);
 }
 
 function getWeather(city) {
